@@ -1,5 +1,6 @@
 
 # Automation-Portfolio
+## About Me
 I am currently completing the no-code/automation track where I build practical, working automations using tools such as Make, Google Forms, Google identifying repetitive, time-consuming processes and replacing them with reliable, low-maintenance systems. I'm seeking an internship where I can apply and grow these skills within a real business environment.
 
 ## Build 1
@@ -7,7 +8,7 @@ Client Payment-Confirmation & Alert System
 1. What I built
 A payment-confirmation system that catches new client submissions (name, email, and cohort paid for) and alerts the team by email, while also logging each one as a Trello card.
 2. The problem it solves
-When new clients confirm payment through a form, the response can sit unseen in a spreadsheet for hours or days. This delays getting them properly enrolled into the right cohort and makes it easy to lose track of who has actually paid, making the client wonder if you're a scam, or just lose enthusiasm.
+When new clients confirm payment through a form, the response can sit unseen in a spreadsheet for hours or days. This delays getting them properly enrolled into the right cohort and makes it easy to lose track of who has actually paid.
 3. How it works, step by step
 A new client fills in the form with their name, email, and the cohort they've paid for. Their answers land as a new row in a Google Sheet. The automation notices the new row and checks that it's a real submission, not a blank test entry. If it's real, it sends the team an email with the client's name, email, and cohort, and creates a Trello card with the same details so it can be tracked and actioned.
 4. The tools I used
