@@ -14,6 +14,7 @@ A new client fills in the form with their name, email, and the cohort they've pa
 Make, Google Forms, Google Sheets, Gmail, Trello.
 5. The result
 Every new client's payment confirmation now reaches the team by email and appears as a Trello card within about a minute of being submitted, with no one checking the form by hand.
+All of the above actions are carried out within a minute after triggered by Lead’s Instagram comment.  
 
 ## Build 2
 Instagram Comment-to-DM Lead Alert System
@@ -22,13 +23,13 @@ An Instagram lead-alert system that sends an automatic DM to anyone who comments
 2. The problem it solves
 Vendors often miss interested customers because Instagram comments and DMs aren't checked constantly. By the time someone notices a comment, the potential client may have already moved on or lost interest.
 3. How it works, step by step
-A person comments a specific keyword on the Instagram post. InstantDM detects the comment and automatically sends that person a DM. At the same time, InstantDM sends the comment details to Make through a webhook. Make picks this up and immediately emails the vendor to let them know a new client has shown interest.
-4. The tools I used
+A person comments a specific keyword on the Instagram post. InstantDM detects the comment and automatically sends that person a DM for payment. At the same time, InstantDM sends the comment details to Make through a webhook. Make picks this up and immediately emails the vendor to let them know a new client has shown interest and paid.
 Make, InstantDM, Instagram, Gmail.
 5. What I had to solve
 Setting up worked smoothly this time, since I applied what I'd learned from my first build — mainly making sure the webhook was properly connected between InstantDM and Make before testing.
 The result
 The vendor now receives an email alert within about a minute of a real comment, without needing to check Instagram manually.
+All of the above actions are carried out within a minute after triggered by Lead’s Instagram comment.  
 
 ## Build 3
 Monthly Client Check-In Emailer
@@ -44,3 +45,4 @@ Make, Google Sheets, Gmail.
 This build went smoothly overall, building on what I'd learned from my earlier automations.
 The result	
 Every client on the list now receives a personalized check-in email automatically each month, with a confirmation sent as well, and no manual sending required.
+All of the above actions are carried out within a minute after triggered by Lead’s Instagram comment.  
